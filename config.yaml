@@ -55,7 +55,7 @@ languages:
             imageTitle: ProfileMode image
             # imageWidth: 120
             # imageHeight: 120
-            subtitle: "☄️ Fast | ☁️ Fluent | 🌙 Smooth | 📱 Responsive"
+            subtitle: ""
             buttons:
                 - name: Blog
                   url: posts
@@ -78,22 +78,22 @@ languages:
                 - name: NullLink
                   url: "#"
 
-    fa:
-        languagedirection: rtl
-        weight: 3
-        title: PaperMod RTL
-        homeInfoParams:
-            Title: "Hi there \U0001F44B"
-            Content: Welcome to RTL layout
-        taxonomies:
-          category: FAcategories
-          tag: FAtags
-          series: FAseries
-        menu:
-            main:
-                - name: FATags
-                  url: fatags
-                  weight: 10
+    # fa:
+    #     languagedirection: rtl
+    #     weight: 3
+    #     title: PaperMod RTL
+    #     homeInfoParams:
+    #         Title: "Hi there \U0001F44B"
+    #         Content: Welcome to RTL layout
+    #     taxonomies:
+    #       category: FAcategories
+    #       tag: FAtags
+    #       series: FAseries
+    #     menu:
+    #         main:
+    #             - name: FATags
+    #               url: fatags
+    #               weight: 10
 
 outputs:
     home:
@@ -137,19 +137,18 @@ params:
     homeInfoParams:
         Title: "PaperMod"
         Content: >
-            Welcome to demo of hugo's theme PaperMod.
+            Welcome to my website, this blog will contained cybersecurity things like : 
 
-            - **PaperMod** is a simple but fast and responsive theme with useful feature-set that enhances UX.
+            - writeup from room or challenges i resolve
+            - Article related to CTI, Malware analysis or all blue team things that i like
 
-            - Do give a 🌟 on Github !
-
-            - PaperMod is based on theme [Paper](https://github.com/nanxiaobei/hugo-paper).
+            - this blog is based on PaperMod .
 
     socialIcons:
         - name: github
-          url: "https://github.com/adityatelange/hugo-PaperMod"
-        - name: KoFi
-          url: "https://ko-fi.com/adityatelange"
+          url: "https://github.com/StevenD33"
+        - name: Twitter
+          url: "https://twitter.com/Steven_33D"
         - name: Rss
           url: "index.xml"
 
@@ -203,7 +202,7 @@ markup:
 
 privacy:
     vimeo:
-        disabled: false
+        disabled: true
         simple: true
 
     twitter:
@@ -212,11 +211,11 @@ privacy:
         simple: true
 
     instagram:
-        disabled: false
-        simple: true
+        disabled: true
+        simple: false
 
     youtube:
-        disabled: false
+        disabled: true
         privacyEnhanced: true
 
 services:
@@ -224,3 +223,4 @@ services:
         disableInlineCSS: true
     twitter:
         disableInlineCSS: true
+
